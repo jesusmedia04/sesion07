@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+header{
+    background-color: #333333;
+    color: #cccccc;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    margin-left: 1em;
+}
+main {
+    margin: 2em;
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+}
+section > div {
+    margin: 4em auto;
+}
+.color-example{
+    background-color: red;
+    width: 200px;
+    height: 100px;
+}
+.image-example{
+    background-image: url(./assets/balon.jpg);
+    width: 200px;
+    height: 200px;
+}
+.position-example {
+    width: 300px;
+    height: 200px;
+    background-image: url('./assets/mandala.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+.size-example,
+.size-example2 {
+  width: 300px;
+  height: 200px;
+  background-image: url('./assets/payaso.jpg');
+  background-repeat: no-repeat;
+}
+
+.size-example {
+  background-size: cover;
+}
+
+.size-example2 {
+  background-size: contain;
+}
+.repeat-example {
+    width: 500px;
+    height: 500px;
+    background-image: url('./assets/mandala.jpg');
+    background-repeat: no-repeat;
+}
+
+.scrooll-example,
+.fixed-example {
+  width: 300px;
+  height: 200px;
+  background-image: url('./assets/campo.jpg.crdownload');
+  background-size: cover;
+}
+
+.scrooll-example {
+  background-attachment: scroll;
+}
+
+.fixed-example {
+  background-attachment: fixed;
+}
+
+
+  
