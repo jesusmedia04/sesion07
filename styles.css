@@ -94,5 +94,22 @@ section > div {
   background-attachment: fixed;
 }
 
+/*Estilos para position.html*/
 
+
+.container {
+    width: 400px;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    padding: 10px;
+  }
+  
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    margin: 10px;
+    position: relative;
+  }
   

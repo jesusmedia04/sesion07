@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento</title>
+    <link rel="stylesheet" href="./styles2.css">
+</head>
+<body>
+    <header>
+        <h1>POSICIONAMIENTO</h1>
+    </header>
+    <main>
+        <h2>¿QUE ES POSITION?</h2>
+        <p>Es una propiedad que controla cómo se posicionan los elementos en una página web.</p>
+        <ul class="nav-list">
+            <li><a href="#relative">position: relative</a></li>
+            <li><a href="#absolute">postition: absolute</a></li>
+            <li><a href="./fixed.html">position: fixed</a></li>
+        </ul>
+        <section class="box relative" id="relative">
+            <h3>position: relative</h3>
+            <p>Posiciona un elemento de manera relativa con respecto a su posición original.</p>
+            <div class="container">
+                <div class="caja">
+                  <p>caja 1</p>
+                </div>
+                <div class="caja">
+                   <p>caja 2</p>
+                </div>
+            </div>
+        </section>
+        <section class="box absolute" id="absolute">
+            <h3>position: absolute</h3>
+            <p>Con esta propiedad, un elemento se posiciona de forma absoluta con respecto a su ancestro posicionado más cercano</p>
+            <div class="container2">
+                <div class="padre">
+                  <div class="hijo">
+                    <p>elemnto hijo</p>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </main>
+</body>
+</html>
